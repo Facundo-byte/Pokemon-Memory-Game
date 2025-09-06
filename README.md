@@ -1,12 +1,42 @@
-# React + Vite
+# 🎮 Pokemon Memory Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A memory game built with **React** using the [PokeAPI](https://pokeapi.co/) to fetch and display Pokémon.
 
-Currently, two official plugins are available:
+## 📝 Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The goal of the game is simple:
 
-## Expanding the ESLint configuration
+* Click on a Pokémon to score points.
+* Each time you select one, the board reshuffles with new Pokémon.
+* Be careful! If you click the same Pokémon more than once, you lose and your score resets to zero.
+* The game keeps track of both your **current score** and your **highest record**, so you can challenge yourself to beat it.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Technologies
+
+* React (with Hooks: `useState`, `useEffect`)
+* CSS for styling
+* Fetch API to retrieve data from PokeAPI
+
+## ▶️ Run the project
+
+1. Clone this repository
+
+   ```bash
+   git clone https://github.com/your-username/pokemon-memory-game.git
+   ```
+2. Navigate into the project folder
+
+   ```bash
+   cd pokemon-memory-game
+   ```
+3. Install dependencies
+
+   ```bash
+   npm install
+   ```
+4. Start the development server
+
+   ```bash
+   npm start
+   ```
+
