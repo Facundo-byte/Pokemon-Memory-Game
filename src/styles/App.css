@@ -4,7 +4,7 @@ body{
 }
 
 #root{
-  margin: auto;
+  margin: 0 auto auto auto;
 }
 li{
   list-style: none;
